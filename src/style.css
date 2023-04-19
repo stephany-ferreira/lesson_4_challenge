@@ -1,0 +1,92 @@
+hr {
+  border-style: dashed solid;
+}
+ul {
+  list-style: none;
+  position: relative;
+  right: 30px;
+  margin: 0px;
+}
+#search-form {
+  position: relative;
+  left: 20px;
+  top: 5px;
+  padding: 5px 20px 5px 20px;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+}
+#city-input {
+  padding: 5px;
+}
+#city-weather-description {
+  padding-top: 40px;
+}
+#city-name {
+  margin: 0;
+}
+.searchButton {
+  padding: 5px 10px;
+}
+.currentLocationButton {
+  padding: 5px 48px;
+  display: block;
+  margin: 10px 0 0 40.5px;
+}
+.icon {
+  width: 100%;
+  color: #00bfa6;
+  display: block;
+  margin: 20px 0 0 10px;
+}
+
+.app {
+  padding-right: 60px;
+}
+.container {
+  max-width: 850px;
+  margin: 30px auto;
+  border-radius: 12px;
+  padding: 40px 60px 0px 60px;
+  background: #f3f8f7;
+  color: #272343;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+.city {
+  font-size: 30px;
+  margin-bottom: 0;
+}
+.weatherDescription {
+  text-align: right;
+  margin: 40px 0 0 0;
+  text-transform: capitalize;
+}
+.help {
+  display: flex;
+  align-items: flex-end;
+}
+.celsius {
+  font-size: 45px;
+  margin: 0px;
+  line-height: 1;
+}
+.fahrenheit {
+  font-size: 18px;
+}
+.temperatureSwitch {
+  text-decoration: none;
+  color: #272343;
+}
+.day {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.temp {
+  text-align: right;
+  margin-top: 0px;
+}
+.max-min {
+  font-size: 14px;
+  margin-top: 10px;
+  text-align: center;
+}
